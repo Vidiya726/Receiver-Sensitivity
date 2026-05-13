@@ -4,16 +4,10 @@
 ## Objective
 Determine the sensitivity of a PIN photodiode-based optical receiver by calculating the minimum received power necessary to achieve a given Q factor. Compare simulation results with those obtained analytically.
 
----
-
 ## Theory
 If only thermal noise is considered, the sensitivity of a PIN photodiode-based receiver is:
 
-
-
 <img width="1126" height="718" alt="image" src="https://github.com/user-attachments/assets/22298a91-302d-41e4-b254-86c9b8ec704e" />
-
----
 
 ## Calculations
 Receiver specifications:
@@ -31,7 +25,7 @@ Receiver specifications:
 
 Using the formulas above, calculate the receiver sensitivity.
 
----
+<img width="1141" height="1280" alt="WhatsApp Image 2026-05-13 at 9 35 47 AM" src="https://github.com/user-attachments/assets/a788c57d-2a62-471d-9e06-f7827274534f" />
 
 ## Layout
 The simulation layout consists of:
@@ -50,16 +44,14 @@ Power meters are placed:
 - At the modulator output  
 - After the attenuator (input to receiver)  
 
----
-
 ## Simulation
 Steps:
 1. Adjust output power to **0 dBm**.  
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
-4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.  
+4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.
 
----
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/f0001926-10a2-4c12-8ab9-f1c7a2755f6f" />
 
 ## Report
 Your report should include:
@@ -70,4 +62,4 @@ Your report should include:
   - Eye diagram  
 - Discussion of differences between analytical and simulation results.  
 
----
+
