@@ -62,4 +62,8 @@ Your report should include:
   - Eye diagram  
 - Discussion of differences between analytical and simulation results.  
 
+## Result:
+The receiver sensitivity is the minimum optical power required to achieve the desired Q factor, considering thermal noise in the system.
+
+The simulation results closely match the analytical calculations, with minor variations due to practical noise and system limitations.
 
